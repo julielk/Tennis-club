@@ -113,6 +113,8 @@ main {
 
     /*main element take up surplus space should not shrink  when the screen is too small*/
     flex: 1 0 auto;
+    margin-top: 47px;
+    /*? */
 
 }
 
