@@ -19,12 +19,18 @@ body {
     /* Generic project style  text color for the body*/
     color: darkgray;
     font-family: 'Castoro Titling', serif;
-    font-family: 'Cinzel', serif;
+
 }
 
 /* Header */
 header {
     background-color: lightcoral;
+}
+
+/*  h1 headding */
+
+h1 {
+    font-family: 'Cinzel', serif;
 }
 
 /* Main */
