@@ -17,7 +17,7 @@ body {
     display: flex;
     flex-direction: column;
     /* Generic project style  text color for the body*/
-    color: darkgray;
+    color: black;
     font-family: 'Castoro Titling', serif;
 
 }
@@ -37,6 +37,7 @@ header {
 header a {
 
     text-decoration: none;
+    /* inherit color from body */
     color: inherit;
 }
 
@@ -45,8 +46,26 @@ header a {
 h1 {
     font-family: 'Cinzel', serif;
     text-transform: uppercase;
-    letter-spacing: 3px;
-    color: darkgrey;
+    /*-spacing: 1px;*/
+    color: black;
+}
+
+/*style the unordered list */
+#menu {
+    font-size: 90%;
+    letter-spacing: 1px;
+    list-style-type: none;
+}
+
+/*space out list itens apply bargin  bottom  */
+#menu>li {
+    margin-bottom: 0.5em;
+
+}
+
+/*  class active display to the user where they are on website*/
+.active {
+    border-bottom: 1px solid black;
 }
 
 /* Main */
