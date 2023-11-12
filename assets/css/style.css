@@ -4,6 +4,16 @@
     box-sizing: border-box;
 }
 
+
+/* body  style*/
+body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    /* Generic project style  text color for the body*/
+    color: darkgray;
+}
+
 /* Header */
 header {
     background-color: lightcoral;
@@ -12,6 +22,9 @@ header {
 /* Main */
 main {
     background-color: lightblue;
+    /*main element take up surplus space should not shrink  when the screen is too small*/
+    flex: 1 0 auto;
+
 }
 
 /* Footer */
