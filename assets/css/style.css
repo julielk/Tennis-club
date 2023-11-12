@@ -18,6 +18,8 @@ body {
     flex-direction: column;
     /* Generic project style  text color for the body*/
     color: darkgray;
+    font-family: 'Castoro Titling', serif;
+    font-family: 'Cinzel', serif;
 }
 
 /* Header */
