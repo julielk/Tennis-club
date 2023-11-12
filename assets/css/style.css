@@ -1,3 +1,9 @@
+/*Google font import */
+
+@import url('https://fonts.googleapis.com/css2?family=Castoro+Titling&family=Cinzel:wght@400;500;600;700;800;900&display=swap');
+
+
+/* wildcard selector to override default setting using  the  Asterick selector */
 * {
     margin: 0;
     padding: 0;
