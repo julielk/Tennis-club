@@ -32,10 +32,21 @@ header {
     box-shadow: 0 1px black;
 }
 
+/* parent header anchor decendants text decoration none */
+
+header a {
+
+    text-decoration: none;
+    color: inherit;
+}
+
 /*  h1 headding */
 
 h1 {
     font-family: 'Cinzel', serif;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    color: darkgrey;
 }
 
 /* Main */
