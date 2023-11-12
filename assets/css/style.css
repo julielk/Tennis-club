@@ -30,6 +30,11 @@ header {
     z-index: 99;
     width: 100%;
     box-shadow: 0 1px black;
+    display: flex;
+    /* deflute  is row */
+    justify-content: space-between;
+    align-items: baseline;
+
 }
 
 /* parent header anchor decendants text decoration none */
@@ -77,6 +82,29 @@ nav {
     padding: 0 1rem;
     box-shadow: 0 1px 1px black;
     display: none;
+    /*top of the element start at bottom of parent*/
+    top: 100%;
+}
+
+/* navbar toggle */
+
+/* checked we want the nav sibling element to display
+ tilde to  target ajoining ekement */
+#nav-toggle:checked~nav {
+    display: block;
+
+}
+
+/*hide the checkbock */
+#nav-toggle {
+    display: none;
+
+}
+
+/*make the lable larger  */
+
+.nav-toggle-label {
+    font-size: 1.5rem;
 }
 
 /* Main */
