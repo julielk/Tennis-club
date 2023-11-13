@@ -122,3 +122,38 @@ main {
 footer {
     background-color: orange;
 }
+
+/* media queries : tablets and larger 768px and uo  */
+@media screen and (min-width:768px) {
+
+    /* Header */
+
+    nav {
+        display: block;
+        position: relative;
+        box-shadow: none;
+        width: fit-content;
+        padding-right: 1rem;
+    }
+
+    /*menu items side by side */
+    #menu {
+        display: flex;
+
+    }
+
+    /*add space beteen the links*/
+
+    #menu>li {
+
+        padding-left: 1rem;
+    }
+
+    /* hide the X from the navbar */
+
+    .nav-toggle-label {
+        display: none;
+    }
+
+
+}
