@@ -15,8 +15,25 @@
     <link rel="icon" type="image/png" sizes="32x32" href="assets/favicon/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="assets/favicon/favicon-16x16.png">
 
+    <!-- Google fonts -->
+
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+
+    <style>
+        .material-symbols-outlined {
+            font-variation-settings:
+                'FILL' 0,
+                'wght' 700,
+                'GRAD' 0,
+                'opsz' 40
+        }
+    </style>
+
     <!--stylesheet-->
     <link rel="stylesheet" href="assets/css/style.css">
+
+
 </head>
 
 <body>
@@ -35,9 +52,9 @@
             <!---unordered list-->
             <!-- unordered list given the id menu-->
             <ul id="menu">
-                <li><a href="'" class="active">Home</a></li>
-                <li><a href="">About</a></li>
-                <li><a href="">Contact</a></li>
+                <li><a href="'index.html" class="active">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
             </ul>
 
         </nav>
@@ -45,12 +62,66 @@
 
     <!--Main content-->
     <main>
-        Main Content
+        <section id="hero">
+
+            <div id="cover-text">
+                <h2>Bring your friends</h2>
+
+
+            </div>
+
+        </section>
+
+        <!--what we offer-->
+        <section>
+            <div class="container">
+                <div class="item item-1">
+                    <!-- Icon tennis racket ball-->
+
+
+                    <h3> <span class="material-symbols-outlined">
+                            sports_tennis
+                        </span> Tennis Coach</h3>
+                    <p>
+                        Our qualified coach help yoou make
+                        a start to your tennis training
+                    </p>
+
+                </div>
+                <div class="item item-2">
+                    <!--Icon Tennis balls-->
+                    <br>
+                    <h3> Tennis Equipment</h3>
+                    <p>
+                        Those withought tennis racket,
+                        balls, bags, clothing and footwear.These are donated for free so no excuse.
+
+                    </p>
+                    <div class="item item-3">
+                        <!--Icon trophy-->
+                        <h3>
+                            <i class="fa-solid fa-trophy"></i>
+                            Tennis Competion
+                        </h3>
+                        <p>
+                            Tennis competion for ameater
+                            to professoinal.
+                        </p>
+
+                    </div>
+
+
+
+                </div> <!--end of container-->
+
+
+        </section>
+
 
     </main>
     <!--Footer-->
     <footer>
-        <ul>
+        <ul id="social-networks">
             <!--facebook-->
             <li><a href="http://www.facebook.com" target="_blank" rel="noopener"
                     aria-label="vist our facebook page(open in a tab)"> <i class="fa-brands fa-facebook"></i></a></li>
