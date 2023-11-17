@@ -37,6 +37,10 @@ h2 {
 
 
 
+
+
+
+
 /* Header */
 header {
     background-color: white;
@@ -44,7 +48,7 @@ header {
     position: fixed;
     z-index: 99;
     width: 100%;
-    box-shadow: 0 1px black;
+    box-shadow: 0 1px 1px black;
     display: flex;
     /* default  is row */
     justify-content: space-between;
@@ -70,8 +74,8 @@ header a {
     list-style-type: none;
 }
 
-/*space out list itens apply bargin  bottom  */
-#menu>li {
+/*space out list itens apply margin  bottom  */
+#menu li {
     margin-bottom: 0.5em;
 
 }
@@ -80,6 +84,8 @@ header a {
 .active {
     border-bottom: 1px solid black;
 }
+
+
 
 /* navbar styke with drop down toggle */
 nav {
@@ -114,6 +120,8 @@ nav {
 .nav-toggle-label {
     font-size: 1.5rem;
 }
+
+
 
 /* Main */
 main {
@@ -162,6 +170,28 @@ main {
 
 
 
+.container {
+    /* background-color: rgb(0, 128, 0); */
+    border: 2px solid black;
+    /* color: #ffffff; */
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    column-gap: 1;
+    gap: 1em;
+
+
+
+}
+
+
+
+
+
+
+
+
 
 /* Footer */
 #social-networks {
@@ -176,8 +206,17 @@ main {
 #social-networks i {
     font-size: 160%;
     padding: 5%;
-    color: black;
+    color: green;
+
 }
+
+/*
+.nav-toggle-label>i {
+    border: 1px soild green;
+    background-color: rgb(0, green, 0);
+    color: #ffffff;
+}
+*/
 
 /* media queries : tablets and larger 768px and uo  */
 @media screen and (min-width:768px) {
