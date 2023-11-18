@@ -185,6 +185,26 @@ main {
 
 }
 
+.offer {
+
+    background-color: lightgrey;
+    /*#d3d3d3 */
+    border: 1ps solid black;
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+
+}
+
+.offer h3 {
+    text-align: center;
+}
+
+.offer img {
+    width: 80px;
+
+}
+
 
 
 
