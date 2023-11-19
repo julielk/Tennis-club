@@ -169,41 +169,64 @@ main {
 
 
 
-
-.container {
-    /* background-color: rgb(0, 128, 0); */
-    border: 2px solid black;
-    /* color: #ffffff; */
-    padding: 10px;
+/* parent tennis container */
+.tennis-container {
+    background-color: beige;
+    max-width: 90%;
+    margin: 40px auto 0 auto;
+    /*
     display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    column-gap: 1;
-    gap: 1em;
+    justify-content: space-between;
+
+    */
 
 
 
 }
 
-.offer {
+/* child container */
 
-    background-color: lightgrey;
-    /*#d3d3d3 */
-    border: 1ps solid black;
-    display: flex;
-    flex-direction: column;
-    gap: 1em;
+.tennis {
+    padding: 20px;
+    margin-bottom: 20px;
+    flex-basis: 30%;
 
-}
-
-.offer h3 {
-    text-align: center;
-}
-
-.offer img {
-    width: 80px;
 
 }
+
+
+
+/*
+
+.tennis-item1 {
+    flex: 1;
+}
+
+.tennis-item2 {
+    flex: 1;
+}
+
+.tennis-item3 {
+    flex: 1;
+}
+*/
+
+
+
+.tennis:nth-child(1) {
+    background-color: #9acd32;
+}
+
+.tennis:nth-child(2) {
+    background-color: #cdf1c3;
+}
+
+.tennis:nth-child(3) {
+    background-color: #c0dbe2;
+}
+
+
+
 
 
 
@@ -296,6 +319,13 @@ main {
     }
 
 
+    .tennis-container {
+        display: flex;
+        justify-content: space-between;
+        text-align: left;
+    }
+
+
 }
 
 /*large  laptop and desktop 992px and up */
@@ -310,5 +340,13 @@ main {
         margin-left: 40px;
         margin-top: 10px;
     }
+
+
+    .tennis-container {
+        display: flex;
+        justify-content: space-between;
+    }
+
+
 
 }
