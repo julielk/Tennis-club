@@ -24,10 +24,12 @@ body {
 
 /*  h1 headding  */
 
-h1 {
-    font-family: 'Cinzel', serif;
-    text-transform: uppercase;
-    /*word-spacing: 1px; */
+header h1 {
+    font-family: 'Cinzel', sans-serif;
+    font-size: 1.5rem;
+    font-weight: 900;
+    text-transform: capitalize;
+    text-align: right;
     color: #ffffff;
 }
 
@@ -66,11 +68,7 @@ header a {
     color: white;
 }
 
-/* logo color white *;
 
-#logo {
-    color: #ffffff;
-}
 
 
 
@@ -96,7 +94,7 @@ header a {
 
 
 
-/* navbar styke with drop down toggle */
+/* navbar style with drop down toggle */
 nav {
     position: absolute;
     background-color: green;
@@ -142,7 +140,7 @@ main {
     /*main element take up surplus space should not shrink  when the screen is too small*/
     flex: 1 0 auto;
     margin-top: 47px;
-    /*? */
+
 
 }
 
@@ -151,7 +149,7 @@ main {
 #hero {
     height: 600px;
     width: 100%;
-    background: url("../images/tenniscourt.jpg") no-repeat center center/cover;
+    background: url("../images/tennisballswirl.jpg") no-repeat center center/cover;
     position: relative;
 
 }
@@ -169,7 +167,7 @@ main {
 
 }
 
-#cover-text>h2 {
+#cover-text h2 {
     font-size: 3em;
     text-transform: lowercase;
     color: #ffffff;
@@ -223,6 +221,9 @@ main {
     background-color: #d3d3d3;
 }
 
+.form-container {
+    display: flex;
+}
 
 
 
@@ -319,6 +320,8 @@ main {
         display: flex;
         justify-content: space-between;
         gap: 20px;
+
+
 
     }
 
