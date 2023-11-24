@@ -321,6 +321,7 @@ p {
 
     #menu>li {
 
+        font-size: 1.5rem;
         padding-left: 1rem;
     }
 
@@ -348,11 +349,12 @@ p {
     /* hero */
     #cover-text {
         width: 400px;
-        margin-top: 10px;
-        padding-top: 1.25em;
+        margin-top: 0.625rem
+            /*10px /16px */
+            padding-top: 1.25rem;
         /* 20px/ 16px */
-        padding-left: 0.9375em
-            /* 15px / 16px */
+        padding-left: 0.9375rem;
+        /* 15px / 16px */
 
     }
 
@@ -370,6 +372,7 @@ p {
 
 
 
+
     /*text container h3 */
     .text-container {
 
@@ -383,17 +386,13 @@ p {
         font-size: 2rem;
     }
 
-    .tennis p {
-        color: black;
-    }
+
 
     .tennis-container {
         display: flex;
         flex-direction: row;
         justify-content: space-evenly;
         align-items: center;
-
-
 
 
     }
@@ -403,28 +402,38 @@ p {
         padding: 1.25rem;
         /*20px / 16px */
         margin: 1.25rem;
-        flex-basis: 30%;
-
 
     }
 
+    /* tennis iten 1 */
     .tennis-item1 {
+        flex-basis: 30%;
         flex-grow: 1;
     }
 
 
-
+    /* tennis item 2 */
     .tennis-item2 {
+        flex-basis: 30%;
         flex-grow: 1;
     }
 
+    /* tennis item 3 */
     .tennis-item3 {
-        flex-grow: ;
+        flex-basis: 30%;
+        flex-grow: 1;
+    }
+
+    /* tennis container paragraph */
+    .tennis p {
+        color: black;
     }
 
 
 
 }
+
+
 
 /*large  laptop and desktop 992px and up */
 
@@ -440,12 +449,54 @@ p {
     }
 
 
+    .text h2 {
+        font-size: 3rem;
+    }
 
 
+    /* tennis container */
     .tennis-container {
         display: flex;
+        flex-direction: row;
         justify-content: space-between;
     }
+
+
+
+
+    /* tennis items  */
+    .tennis {
+
+        padding: 2rem;
+        /*20px / 16px */
+        margin: 2rem;
+
+    }
+
+    /* tennis iten 1 */
+    .tennis-item1 {
+        flex-basis: 30%;
+        flex-grow: 1;
+    }
+
+
+    /* tennis item 2 */
+    .tennis-item2 {
+        flex-basis: 30%;
+        flex-grow: 1;
+    }
+
+    /* tennis item 3 */
+    .tennis-item3 {
+        flex-basis: 30%;
+        flex-grow: 1;
+    }
+
+
+
+
+
+
 
 
 
