@@ -210,11 +210,32 @@ img:hover {
 
 
 /* Contact Us */
-/*
-.form-container {
+.contact-container {
+    border: 2px solid black;
     display: flex;
+    flex-direction: column;
+    justify-content: center;
+
 }
-*/
+
+.contact-container h3,
+p {
+    text-align: center;
+
+}
+
+.contact-us {
+    border: 2px solid black;
+}
+
+
+
+#google-map {
+    width: 100%;
+
+}
+
+
 
 /* Footer */
 #social-networks {
