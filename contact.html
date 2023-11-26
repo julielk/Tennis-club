@@ -36,7 +36,7 @@
             <!-- unordered list given the id menu-->
             <ul id="menu">
                 <li><a href="'index.html">Home</a></li>
-                <li><a href="about.html">About</a></li>
+                <li><a href="gallery.html">Gallery</a></li>
                 <li><a href="contact.html" class="active">Contact</a></li>
             </ul>
 
@@ -54,89 +54,87 @@
                 for your child or for your family members, feel free to
                 contact the club.
             </p>
-        </section><!--end of section-->
-        <section>
+
+
             <!--contact container-->
             <div class="contact-contaner">
-                <div class="contact">
-                    <i class="fa-solid fa-location-dot"></i>
-                    <br>
-                    <h3>Address</h3>
-                    <br>
-                    <p>42 london street</p>
-                </div>
-                <div class="contact">
-                    <i class="fa-solid fa-phone"></i>
-                    <br>
-                    <h3>Telephone</h3>
-                    <br>
-                    <p>1234-567-8910 </p>
+                <div class="contact-us">
 
-                </div>
-                <div class="contact">
-                    <i class="fa-solid fa-envelope"></i>
-                    <br>
-                    <h3>E-mail</h3>
-                    <br>
-                    <p>bloggs@example.com</p>
-                </div>
+                    <h2> <i class="fa-solid fa-location-dot"></i>
+                        <h2>Address</h2>
 
-                <div class="contact">
-                    <i class="fa-solid fa-clock"></i>
-                    <br>
-                    <h3>opening hours</h3>
-                    <br>
-                    <p>Mon-Sun 8am - 8pm</p>
-                </div>
+                        <p>42 london street</p>
 
+                        <h3>
+                            <i class="fa-solid fa-phone"></i>
+                            Telephone
+                        </h3>
 
+                        <p>1234-567-8910 </p>
+                        <i class="fa-solid fa-envelope"></i>
+                        <br>
+                        <h3>E-mail</h3>
+                        <p>demo@example.com</p>
+
+                        <i class="fa-solid fa-clock"></i>
+                        <br>
+                        <h3>opening hours</h3>
+                        <br>
+                        <p>Mon-Sun 8am - 8pm</p>
+                </div> <!--end od contact infor-->
 
                 <!--form section-->
-                <div id="signup">
-                    <!--form containerr-->
-                    <div class="form-container">
-                        <h3>Contact us</h3>
+
+                <!--form containerr-->
+                <div class="contact-us">
+                    <h3>Contact Info </h3>
+                    <br>
+                    <form id=" method=" POST" action="http://formdump.codeinsitute.net">
+                        <label for="first-name">First Name</label>
+                        <input type="text" name="first-name" id="first-name" class="contact-us-input" required>
                         <br>
-                        <form id="signup-form" method="POST" action="http://formdump.codeinsitute.net">
-                            <label for="first-name">First Name</label>
-                            <input type="text" name="first-name" id="first-name" class="text-input" required>
-                            <br>
-                            <label for="last-name">Last Name</label>
-                            <input type="text" name="Last Name" id="last-name" class="text-input" required>
-                            <br>
-                            <label for="email" name="email-address">Email</label>
-                            <input type="text" name="email-address" id="email-address" class="text-input" required>
-                            <br><br>
-                            <textarea name="message" row="5" col="20">Enter message
+                        <label for="last-name">Last Name</label>
+                        <input type="text" name="Last Name" id="last-name" class="contact-us-input" required>
+                        <br>
+                        <!--Address-->
+                        <label for="address">Adress</label>
+                        <input type="text" id="Address" class="contact-us-input" required>
+                        <br>
+                        <!--phone-->
+                        <label for="phone">phone</label>
+                        <input type="text" name="phone" id="phone" class="contact-us-input" required>
+                        <br>
+                        <!--email-->
+                        <label for="email" name="email-address">Email</label>
+                        <input type="text" name="email-address" id="email-address" class="contact-us-input" required>
+                        <br><br>
+                        <!--textarea-->
+                        <textarea placeholder="message" class="contact-us-textarea" row="10" col="50"> Enter message
+                       </textarea>
+                        <!--button-->
+                        <input type="submit" class="contact-us-btn"> submit</input>
 
 
-                            </textarea>
-                            <button type="submit" class="send"></button>
-
-
-                            <br>
-                            <button type="button">submit</button>
-                            <br>
-
-                            <div id="google-map">
-                                <h3>Tis where where located</h3>
-                                <iframe
-                                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d158865.6134115169!2d-0.4781136132812606!3d51.5265119!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x487610085aa92489%3A0x8b22b7881a6cc312!2sPaddington%20Sports%20Club!5e0!3m2!1sen!2suk!4v1700664221400!5m2!1sen!2suk"
-                                    width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
-                                    referrerpolicy="no-referrer-when-downgrade">
-
-
-
-                            </div>
-
+                        <!---iframe-->
+                        <div id="google-map">
+                            <h3>Tis where where located</h3>
+                            <iframe
+                                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d158865.6134115169!2d-0.4781136132812606!3d51.5265119!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x487610085aa92489%3A0x8b22b7881a6cc312!2sPaddington%20Sports%20Club!5e0!3m2!1sen!2suk!4v1700664221400!5m2!1sen!2suk"
+                                width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                                referrerpolicy="no-referrer-when-downgrade">
 
 
 
-                    </div>
+                        </div>
 
-                    </form>
 
-                </div><!--end of contact container-->
+
+
+                </div>
+
+                </form>
+
+            </div><!--end of contact container-->
 
 
 
