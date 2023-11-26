@@ -173,245 +173,48 @@ main {
     color: #ffffff;
 }
 
-.text-container {
-    display: flex;
-    flex-direction: row;
-}
-
-.text {
-    padding: 1rem;
-    font-size: 1rem;
-    color: green;
-    text-transform: lowercase;
-
-}
 
 
+/* tennis gallery */
 
-
-.tennis-container {
-    background-color: #ffffff;
-    border: 3px solid black;
-    margin: 1rem;
+#tennis-container {
     display: flex;
     flex-direction: column;
-    justify-content: space-evenly;
-    align-items: start;
-}
-
-/* tennis items */
-.tennis {
-    border: 1px solid black;
-    background-color: #a7c957;
-    border-radius: 0.3125rem;
-    /*5px/16*/
-    padding: 1rem;
-    margin-top: 0.625rem;
-    margin-left: 0.625rem;
-    margin-right: 0.625rem;
-    margin-bottom: 20px;
-
 
 
 }
 
-/* span icon color */
-span {
-    color: #ffffff;
-}
-
-.tennis h3 {
-    font-size: 1.5rem;
-    /* 24px / 16px */
-    color: #ffffff;
-    text-transform: capitalize;
-}
-
-
-
-
-/*  tennis item 1 */
-.tennis-item1 {
-    flex-basis: 30%;
-    flex-grow: 1;
-}
-
-/*tennis item 2*/
-.tennis-item2 {
-    flex-basis: 30%;
-    flex-grow: 1;
-}
-
-/* tennis item 3 */
-.tennis-item3 {
-    flex-basis: 30%;
-    flex-grow: 1;
-}
-
-
-/*  paragraph tennis container */
-p {
-    font-size: 1rem;
-    color: black;
-    text-transform: lowercase;
-    line-height: 1.5rem;
-
-}
-
-/*text container */
-
-.text-container {
-    border: 1px solid black;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-
-}
-
-/*text h2 */
-#text h2 {
-    border: 1px solid black;
-    padding: 1rem;
-    margin: 1rem;
+#tennis-container h2 {
+    text-align: center;
     text-transform: capitalize;
     color: #008000;
 
-}
-
-/*  coach container */
-.text-container {
-    border: 1px solid black;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
 
 }
 
-/*  paragraph container  */
-.para-container {
-    border: 1px solid black;
-    padding: 1rem;
-    margin: 1rem;
-
-    display: flex;
-    flex-direction: column;
-}
-
-/* paragraph */
-#para {
-    font-size: 1rem;
-    line-height: 0.5rem;
-}
-
-
-/* coach container */
-.coach-container {
-    border: 1px solid black;
-    padding: 1rem;
-    margin: 1rem;
-    display: flex;
-    flex-direction: column;
-
-
-
-}
-
-/* coach image */
-.coach img {
-    border: 1px solid black;
-    max-width: 100%;
-    gap: 1rem;
-    border-radius: 5px;
-
-}
-
-
-
-/* text container */
-.text-container {
-    border: 1px solid black;
-    padding: 1rem;
-    margin: 0.5rem 1rem;
-    display: flex;
-    flex-direction: column;
-
-
-}
-
-/* text tournament h*/
-#text-tournament {
-    padding: 1rem;
-    margin: 1rem;
-    padding-left: 1rem;
-
-}
-
-
-
-/* h2 */
-h2 {
-    color: #008000;
-}
-
-.tournament-container {
-    border: 1px solid black;
-    display: flex;
-    flex-direction: column;
-}
-
-.club {
-    border: 1px solid black;
-    padding: 0.5rem;
-    margin: 0.5rem;
-}
-
-.club img {
-    max-width: 100%;
-    padding: 0.5rem 1rem;
-    gap: 1rem;
-
-}
-
-/* events */
-
-.events-container {
-    border: 1px solid black;
-    width: 300px;
-    margin: 0.5rem;
-    padding: 1rem;
-    display: flex;
-    flex-direction: column;
-
-
-}
-
-/* events */
-.events {
-    border: 1px solid black;
+#tennis-image img {
     width: 100%;
-    padding: 0.5rem;
-    margin: 0.5rem;
-}
 
-.events img {
-    max-width: 100%;
 
 }
 
+#tennis-image {
+    line-height: 0;
+}
+
+img:hover {
+    opacity: .5;
+    transition: .3s;
+}
 
 
 
-
+/* Contact Us */
 /*
 .form-container {
     display: flex;
 }
 */
-
-
-
-
-
 
 /* Footer */
 #social-networks {
@@ -431,6 +234,14 @@ h2 {
 
 }
 
+
+/* media queries large amd landscape phomes(576px and up */
+@media screen and (min-width:576px) {
+    #tennis-image {
+        column-count: 2;
+        column-gap: 0;
+    }
+}
 
 
 /* media queries : tablets and larger 768px and uo  */
@@ -565,6 +376,12 @@ h2 {
     }
 
 
+    /*tennis image gallery */
+    #tennis-image {
+        column-count: 3;
+
+    }
+
 
 }
 
@@ -628,9 +445,11 @@ h2 {
     }
 
 
+    /* tennis gallery */
 
-
-
+    #tennis-image {
+        column-count: 4;
+    }
 
 
 
