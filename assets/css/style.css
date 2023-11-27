@@ -209,7 +209,7 @@ img:hover {
 
 
 
-/* Contact Us */
+/* Contact Us 
 .contact-container {
     border: 2px solid black;
     display: flex;
@@ -230,10 +230,133 @@ p {
 
 
 
+
 #google-map {
     width: 100%;
 
 }
+*/
+/* FORM*/
+body {
+    background-color: #addca5;
+    color: #44653f;
+    line-height: 1.6;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 1rem;
+
+}
+
+/* containet */
+.container {
+    max-width: 1170px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 1rem;
+
+}
+
+/* unordered list*/
+
+ul {
+    list-style: none;
+    padding: 0;
+
+}
+
+/*  brand tennis club */
+
+.brand {
+    text-align: center;
+}
+
+.brand span {
+    color: #44653f;
+}
+
+/*  wrapper give box-shadow */
+.wrapper {
+    box-shadow: 0 0 20px 0 rgba(72, 116, 94, 0.7);
+}
+
+/* wapper all the direct emements inside the wapper padding */
+
+
+.wrapper>* {
+
+    padding: 1rem;
+}
+
+/* have a look at the html ?  */
+.company-info {
+    background: #addca5;
+}
+
+/* allgin  info  to the center */
+
+.company-info h3,
+.company-info ul {
+    text-align: center;
+    margin: 0 0 1rem 0;
+
+}
+
+.contact {
+    background: #f9feff;
+}
+
+/*FORM STYLES   */
+.contact form {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 20px;
+}
+
+/* dislay as block  */
+.contact form label {
+    display: block;
+}
+
+/*  contact form pagraph margin */
+.contact form p {
+    margin: 0;
+}
+
+
+.contact form .full {
+    grid-column: 1 / 3;
+
+}
+
+/* set the width*/
+
+.contact form button,
+.contact form input,
+.contact form textarea {
+
+    width: 100%;
+    padding: 1rem;
+}
+
+/* style the buttond */
+
+.contact form button {
+    background: #addca5;
+    border: 0;
+    text-transform: uppercase;
+}
+
+.contact form button:hover,
+.contact form button:focus {
+
+    background: #44653f;
+    color: #ffffff;
+}
+
+
+
+
+
+
 
 
 
