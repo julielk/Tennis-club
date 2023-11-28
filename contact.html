@@ -47,7 +47,8 @@
     <main>
 
         <section>
-            <!--contact paragrah section-->
+            <!--
+            contact paragrah section-
             <h2>Contacts </h2>
             <p>We would like to welcome anyone to enjoy, what they
                 love ost about tennis.Whether it's providing private lessons
@@ -56,85 +57,140 @@
             </p>
 
 
-            <!--contact container-->
-            <div class="contact-contaner">
-                <div class="contact-us">
+            contact container
+            <div class="contact-container">
+                <h2 class="contact-us">Contact Us</h2> 
 
-                    <h2> <i class="fa-solid fa-location-dot"></i>
-                        <h2>Address</h2>
+                <div class="wrapper">
+                    <h3> <i class="fa-solid fa-location-dot"></i>
+                        Address</h3>
 
-                        <p>42 london street</p>
+                    <p>42 london street</p>
 
-                        <h3>
-                            <i class="fa-solid fa-phone"></i>
-                            Telephone
-                        </h3>
+                    <h3>
+                        <i class="fa-solid fa-phone"></i>
+                        Telephone
+                    </h3>
 
-                        <p>1234-567-8910 </p>
-                        <i class="fa-solid fa-envelope"></i>
-                        <br>
-                        <h3>E-mail</h3>
-                        <p>demo@example.com</p>
-
-                        <i class="fa-solid fa-clock"></i>
-                        <br>
-                        <h3>opening hours</h3>
-                        <br>
-                        <p>Mon-Sun 8am - 8pm</p>
-                </div> <!--end od contact infor-->
-
-                <!--form section-->
-
-                <!--form containerr-->
-                <div class="contact-us">
-                    <h3>Contact Info </h3>
+                    <p>1234-567-8910 </p>
+                    <i class="fa-solid fa-envelope"></i>
                     <br>
-                    <form id=" method=" POST" action="http://formdump.codeinsitute.net">
-                        <label for="first-name">First Name</label>
-                        <input type="text" name="first-name" id="first-name" class="contact-us-input" required>
-                        <br>
-                        <label for="last-name">Last Name</label>
-                        <input type="text" name="Last Name" id="last-name" class="contact-us-input" required>
-                        <br>
-                        <!--Address-->
-                        <label for="address">Adress</label>
-                        <input type="text" id="Address" class="contact-us-input" required>
-                        <br>
-                        <!--phone-->
-                        <label for="phone">phone</label>
-                        <input type="text" name="phone" id="phone" class="contact-us-input" required>
-                        <br>
-                        <!--email-->
-                        <label for="email" name="email-address">Email</label>
-                        <input type="text" name="email-address" id="email-address" class="contact-us-input" required>
-                        <br><br>
-                        <!--textarea-->
-                        <textarea placeholder="message" class="contact-us-textarea" row="10" col="50"> Enter message
+                    <h3>E-mail</h3>
+                    <p>demo@example.com</p>
+
+                    <i class="fa-solid fa-clock"></i>
+                    <br>
+                    <h3>opening hours</h3>
+                    <br>
+                    <p>Mon-Sun 8am - 8pm</p>
+
+                    </div>end od contact info wrapper
+
+                     section
+
+                        form containerr
+                        <div class="contact-us">
+                            <h3>Contact Info </h3>
+                            <br>
+                            <form method=" POST" action="http://formdump.codeinsitute.net">
+                                <label for="fname">First Name</label>
+                                <input type="text" id="fname" name="firstname" placeholder="first name" required>
+                                <br>
+                                <label for="lname">Last Name</label>
+                                <input type="text" id="lname" name="lastname" placeholder="last name" required>
+                                <br>
+                                -phone
+                                <label for="phone">Phone</label>
+                                <input type="tel" id="phone" nmae="phone" placeholder="phone"
+                                    pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}">
+                                <br>
+                
+                                <label for="email" name="email">Email</label>
+                                <input type="text" id="email" name="email" placeholder="email" required>
+                                <br><br>
+                            
+                                <textarea placeholder="message" class="contact-us-textarea" row="10" col="50"> Enter message
                        </textarea>
-                        <!--button-->
-                        <input type="submit" class="contact-us-btn"> submit</input>
+                                button
+                                <input type="submit" class="contact-us-btn"> submit</input>
 
 
-                        <!---iframe-->
-                        <div id="google-map">
-                            <h3>Tis where where located</h3>
-                            <iframe
-                                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d158865.6134115169!2d-0.4781136132812606!3d51.5265119!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x487610085aa92489%3A0x8b22b7881a6cc312!2sPaddington%20Sports%20Club!5e0!3m2!1sen!2suk!4v1700664221400!5m2!1sen!2suk"
-                                width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
-                                referrerpolicy="no-referrer-when-downgrade">
+                                iframe--
+                                <div id="google-map">
+                                    <h3>Tis where where located</h3>
+                                    <iframe
+                                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d158865.6134115169!2d-0.4781136132812606!3d51.5265119!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x487610085aa92489%3A0x8b22b7881a6cc312!2sPaddington%20Sports%20Club!5e0!3m2!1sen!2suk!4v1700664221400!5m2!1sen!2suk"
+                                        width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                                        referrerpolicy="no-referrer-when-downgrade">
 
+
+
+                                </div>
 
 
                         </div>
-
-
-
 
                 </div>
 
                 </form>
 
-            </div><!--end of contact container-->
+            </div><end of contact container-->
+
+
+
+            <!--FORM-->
+
+            <div class="container">
+                <h1 class="brand">Tennis <span>Club</span></h1> <!--brand-->
+                <div class="wrapper">
+                    <div class="company-info">
+                        <h3>Tennis club</h3>
+                        <ul>
+                            <li><i class="fa-solid fa-location-dot"></i>42 Hondon street</li>
+                            <li> <i class="fa-solid fa-phone"></i> (555)-5555-5555</li>
+                            <li> <i class="fa-solid fa-envelope"></i> test@exmple.com</li>
+                            <li> <i class="fa-solid fa-clock"></i>Opening times<br>Mon-Sun:8am -8pm </li>
+                        </ul>
+                    </div> <!--end of compamy infor-->
+
+                    <div class="contact">
+                        <h3>Email Us</h3>
+                        <form method="POST" action="http://formdump.codeinstitute.net">
+                            <p>
+                                <label>Name</label>
+                                <input type="text" name="company">
+                            </p>
+                            <p>
+                                <label>Email Address</label>
+                                <input type="email" name="email">
+                            </p>
+                            <p>
+                                <label>Phone Number</label>
+                                <input type="text" name="phone">
+                            </p>
+                            <p class="full">
+                                <label>Message</label>
+                                <textarea name="message" row="5">
+                                     </textarea>
+
+                            </p>
+                            <p class="full">
+                                <button>Submit</button>
+                            </p>
+
+
+
+
+                        </form>
+
+                    </div>
+
+
+                </div>
+
+
+            </div>
+
 
 
 
