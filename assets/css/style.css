@@ -181,7 +181,7 @@ main {
 
 
 
- /* HOME page tennis container 3 columns */
+/* HOME page tennis container 3 columns */
 
 .text h2 {
     margin-bottom: 1rem;
@@ -317,7 +317,7 @@ ul {
 }
 
 /* have a look at the html ?  */
-.company-info {
+.contact-info {
     background: #addca5;
 }
 
@@ -367,6 +367,7 @@ ul {
     width: 100%;
     padding: 1rem;
     border: 1px solid #addca5;
+    color: #ffffff;
 }
 
 /* style the button */
@@ -381,7 +382,7 @@ ul {
 .contact form button:focus {
 
     background: #addca5;
-    color: #ffffff;
+    color: #000000;
     outline: 0;
     transition: background-color 2s ease-out;
 
@@ -428,7 +429,7 @@ ul {
 
     }
 
-    
+
 
 }
 
@@ -572,7 +573,7 @@ ul {
 
     }
 
-    
+
 
     /* tennis container 
 
