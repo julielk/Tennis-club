@@ -4,7 +4,7 @@
 
 */
 
-/* wildcard selector to override default setting using  the  Asterick selector */
+/* wildcard selector to override default setting using  the  Asterisk selector */
 * {
     margin: 0;
     padding: 0;
@@ -51,7 +51,7 @@ header {
 
 }
 
-/* parent header anchor decendants text decoration none */
+/* parent header anchor descendants text decoration none */
 
 header a {
 
@@ -67,14 +67,14 @@ header a {
 
 /*style the unordered list */
 #menu {
-    font-size: 110%;
-    letter-spacing: 4px;
+    font-size: 100%;
+    letter-spacing: 2px;
     list-style-type: none;
 
 
 }
 
-/*space out list itens apply margin  bottom  */
+/*space out list items apply margin  bottom  */
 #menu li {
     margin-bottom: 1em;
 
@@ -104,19 +104,19 @@ nav {
 /* navbar toggle */
 
 /* checked we want the nav sibling element to display
- tilde to  target ajoining ekement */
+ tilde to  target a joining element */
 #nav-toggle:checked~nav {
     display: block;
 
 }
 
-/*hide the checkbock */
+/*hide the checkbox */
 #nav-toggle {
     display: none;
 
 }
 
-/*make the lable larger  */
+/*make the label larger  */
 
 .nav-toggle-label {
     font-size: 2rem;
@@ -151,33 +151,39 @@ main {
     /* set the opacity semi-transparent */
     font-size: 120%;
     position: absolute;
-    bottom: 0.5rem;
+    top: 1.875rem;
     /* 10px /16px */
     width: 80%;
-    right: 125%;
+    right: 30px;
     min-height: 100px;
     padding: 10px;
 
 }
 
+
+
 #cover-text h2 {
     font-size: 3em;
     text-transform: lowercase;
     color: #ffffff;
+    opacity: 0.7;
 }
 
-/*
+
+
 #cover-text>p {
+    font-size: 1em;
+    font-weight: 600;
     text-transform: lowercase;
     color: #ffffff;
 }
-*/
 
 
 
-/* 
 
-  HOME page tennis container 3 colmns */
+
+
+ /* HOME page tennis container 3 columns */
 
 .text h2 {
     margin-bottom: 1rem;
@@ -188,22 +194,20 @@ main {
 
 
 .tennis-container {
+    border: 1px solid black;
     margin: 1.25rem;
     padding: 1rem;
     display: flex;
     flex-direction: column;
-    align-items: center;
-    gap: 0.5rem;
+    padding-left: 10px;
+    gap: 1rem;
 
 }
 
 .tennis {
-
-    width: 300px;
-    height: 300px;
     border: 1px solid black;
-    font-size: 1.5rem;
-    padding: 20px 10px;
+    font-size: 1rem;
+    padding: 10px 10px;
     border-radius: 5px;
 }
 
@@ -233,6 +237,7 @@ main {
 #tennis-container {
     display: flex;
     flex-direction: column;
+    align-items: flex-start;
 
 
 }
@@ -256,14 +261,14 @@ main {
 }
 
 img:hover {
-    opacity: .8;
-    transition: .1s ease-in-out;
     cursor: pointer;
+    opacity: .5;
+    transition: 0.3s;
 }
 
 
 
-/*    CONTACT  FORM*/
+/*    Contact  Form*/
 body {
     /* background-color: #44653f; */
     color: #000000;
@@ -305,7 +310,7 @@ ul {
     box-shadow: 0 0 20px 0 rgba(72, 116, 94, 0.7);
 }
 
-/* wapper all the direct emements inside the wapper padding */
+/* wrapper all the direct elements inside the wrapper padding */
 
 
 .wrapper>* {
@@ -318,7 +323,7 @@ ul {
     background: #addca5;
 }
 
-/* allgin  info  to the center */
+/* align info  to the center */
 
 .contact-info h3,
 .contact-info ul {
@@ -332,19 +337,19 @@ ul {
     background: #addca5;
 }
 
-/*FORM STYLES   */
+/*Form Styles   */
 .contact form {
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-gap: 20px;
 }
 
-/* dislay as block  */
+/* display as block  */
 .contact form label {
     display: block;
 }
 
-/*  contact form pagraph margin */
+/*  contact form paragraph margin */
 .contact form p {
     margin: 0;
 }
@@ -397,7 +402,7 @@ ul {
     list-style-type: none;
 }
 
-/* target i icons decendents*/
+/* target i icons descendants*/
 #social-networks i {
     font-size: 160%;
     padding: 5%;
@@ -410,7 +415,7 @@ ul {
 
 
 
-/* media queries large amd landscape phomes(576px and up */
+/* media queries large amd landscape phones(576px and up */
 @media screen and (min-width:576px) {
     #tennis-image {
         column-count: 2;
@@ -425,88 +430,7 @@ ul {
 
     }
 
-    /* home page 3 colimn */
-
- .tennis-container {
-     display: flex;
-     flex-direction: row;
-     align-content: center;
-     flex-wrap: wrap;
-
- }
-
- .tennis {
-    column-count: 2;
-     font-size: 2rem;
     
-
- }
-
-
- .tennis-item1 {
-     background-color: #addca5;
-     color: #000000;
-     flex-grow: 1;
- }
-
- .tennis-item2 {
-     background-color: #44653f;
-     color: #ffffff;
-     flex-grow: 1;
- }
-
- .tennis-item3 {
-     background-color: #addca5;
-     color: #000000;
-     flex-grow: 3;
- }
-
- span:nth-of-type(1) {
-     font-size: 3rem;
-     color: #000000;
- }
-
- span:nth-of-type(2) {
-     font-size: 3rem;
-     color: #ffffff;
- }
-
-
- span:nth-of-type(3) {
-     font-size: 3rem;
-     color: #000000;
- }
-
-
- /* tennis children  paragraph */
- .tennis p {
-     font-size: 1.5rem;
-     color: black;
- }
-
- /* tennis item 2 paragraph */
-
-    .tennis-item2 p {
-     color: #ffffff;
- }
-
- .tennis-item2 span {
-     color: #ffffff;
- }
-
-
-
-
-
-
-
-
-
-
-
-   
-
-
 
 }
 
@@ -530,7 +454,7 @@ ul {
 
     }
 
-    /*add space beteen the links*/
+    /*add space between the links*/
 
     #menu>li {
 
@@ -553,7 +477,7 @@ ul {
 
     }
 
-    /* main content pushed down beacuse of larger header */
+    /* main content pushed down because of larger header */
     main {
 
         margin-top: 65px;
@@ -599,78 +523,7 @@ ul {
     }
 
 
-    /* Tennis 3 column home page 
-
-
-    .tennis-container {
-        display: flex;
-        flex-direction: row;
-        justify-content: space-around;
-        align-items: center;
-        flex-wrap: wrap;
-
-    }
-
-    .tennis {
-        width: 90%;
-        
-        font-size: 2rem;
-        text-align: center;
-
-    }
-
-
-    .tennis-item1 {
-        background-color: #addca5;
-        color: #000000;
-        flex-grow: 1;
-    }
-
-    .tennis-item2 {
-        background-color: #44653f;
-        color: #ffffff;
-        flex-grow: 1;
-    }
-
-    .tennis-item3 {
-        background-color: #addca5;
-        color: #000000;
-        flex-grow: 2;
-    }
-
-    span:nth-of-type(1) {
-        font-size: 2rem;
-        color: #000000;
-    }
-
-    span:nth-of-type(2) {
-        font-size: 2rem;
-        color: #ffffff;
-    }
-
-
-    span:nth-of-type(3) {
-        font-size: 2rem;
-        color: #000000;
-    }
-
-
-    /* tennis children  paragraph */
-    .tennis p {
-        font-size: 2-rem;
-        color: black;
-    }
-
-    /* tennis item 2 paragraph 
-    .tennis-item2 p {
-        color: #ffffff;
-    }
-
-    .tennis-item2 span {
-        color: #ffffff;
-    }
-   */
-   
+    /* Tennis 3 column home page */
 
 
 
@@ -721,9 +574,9 @@ ul {
 
     }
 
-    /*
+    
 
-    /* tennis container */
+    /* tennis container 
 
     .tennis-container {
         display: flex;
@@ -734,11 +587,6 @@ ul {
 
     }
 
-    /*
-    .tennis-container>* {
-        width: 33.33%;
-    }
-    */
 
     .tennis-container .tennis {
         margin: 5px;
@@ -757,62 +605,9 @@ ul {
     }
 
 
-
-
-    /*
-    .tennis-item1 {
-        flex-basis: 30%;
-        flex-grow: 1;
-    }
-
-
-
-    .tennis-item2 {
-        flex-basis: 30%;
-        flex-grow: 1;
-    }
-
-
-    .tennis-item3 {
-        flex-basis: 30%;
-        flex-grow: 1;
-    }
-
-    span:nth-of-type(1) {
-        color: #000000;
-    }
   
-  */
 
-
-
-    .tennis-container {
-        width: 100%;
-        display: flex;
-        flex-wrap: wrap;
-        flex-direction: row;
-        justify-content: center;
-        align-items: center;
-
-    }
-
-    .tennis-item1,
-    .tennis-item2,
-    .tennis-item3 {
-        max-width: 80%;
-        height: 250px;
-        margin: 1.875rem;
-        padding: 2.5rem 1.875rem;
-        text-align: center;
-
-    }
-
-
-
-
-
-
-    /* tennis gallery */
+    /* Tennis Gallery */
 
     #tennis-image {
         column-count: 4;
