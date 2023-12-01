@@ -23,7 +23,7 @@
     <!--Header-->
     <header>
         <a href="index.html">
-            <h1 id="logo">Tennis Club</h1>
+            <h1 id="logo" aria-roledescription="banner">Tennis Club</h1>
         </a>
         <!--Add check box element-->
         <input type="checkbox" id="nav-toggle" name="nav-toggle">
@@ -68,25 +68,25 @@
                         <form method="POST" action="http://formdump.codeinstitute.net">
                             <p>
                                 <label> First Name</label>
-                                <input type="text" name="fname">
+                                <input type="text" name="fname" aria-required="true">
                             </p>
                             <p>
                                 <label>Last Name</label>
-                                <input type="text" name="lname">
+                                <input type="text" name="lname" aria-required="true">
                             </p>
 
 
                             <p>
                                 <label>Email Address</label>
-                                <input type="email" name="email">
+                                <input type="email" name="email" aria-required="true">
                             </p>
                             <p>
                                 <label>Phone Number</label>
-                                <input type="text" name="phone">
+                                <input type="text" name="phone" aria-required="true">
                             </p>
                             <p class="full">
                                 <label>Message</label>
-                                <textarea name="message" row="5">
+                                <textarea name="message" msg-row="5">
                                      </textarea>
 
                             </p>
@@ -121,24 +121,24 @@
         <ul id="social-networks">
             <!--facebook-->
             <li><a href="http://www.facebook.com" target="_blank" rel="noopener"
-                    aria-label="vist our facebook page(open in a tab)"> <i class="fa-brands fa-facebook"></i></a></li>
+                    aria-label="visit our facebook page(open in a tab)"> <i class="fa-brands fa-facebook"></i></a></li>
 
             <!--twitter-->
             <li><a href="http://www.twitter.com" target="_blank" rel="noopener"
-                    aria-label="vist our twiter page(open in a tab)">
+                    aria-label="visit our twitter page(open in a tab)">
                     <i class="fa-brands fa-square-twitter"></i>
                 </a>
             </li>
             <!--youtube-->
 
             <li><a href="http://www.youtube.com" target="_blank" rel="noopener"
-                    aria-label="vist our youtube page(open in a tab)">
+                    aria-label="visit our youtube page(open in a tab)">
                     <i class="fa-brands fa-youtube"></i>
                 </a>
             </li>
             <!--instagram-->
             <li><a href="http://www.instagram.com" target="_blank" rel="noopener"
-                    aria-label="vist our instagram page(open in a tab)">
+                    aria-label="visit our instagram page(open in a tab)">
                     <i class="fa-brands fa-square-instagram"></i>
                 </a>
             </li>
