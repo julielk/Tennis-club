@@ -20,7 +20,7 @@ is targets all ages who want to play tennis .
 * The Navigation  tells the user the name of the the webiste and  the likns
   make different sections easy to find.
 
-  # Tennis Club       Home Galery Contact
+  # **Tennis Club**  ### **Home Galery Contact**
   ### **Header**
   * The header font color white background color green.
   * The Header explains name of the Tennis club
@@ -29,7 +29,10 @@ is targets all ages who want to play tennis .
   ### **Home Page**
   * Home page setions gives details  if what Tennis club offer members
     Tennis coaching , Tennis Equipment and Tennis competitions.
-  * The home section show  important about the Tennis club what it offers.
+  * The home section show  important about the Tennis club what it offers
+    
+
+  
 
 ### **Gallery**
  *  The gallery page shows picture of coaching of  children and adults
@@ -37,13 +40,13 @@ is targets all ages who want to play tennis .
  *  The g  page show Tennis club events such a children open day
     and end of season party.
 
- ![gallery]()
+ ![gallery](https://github.com/julielk/Tennis-club/blob/main/assets/documents/gallery3.PNG)
 
 
     
 
 ### **Contact**  
-* The contact section show the meeting time
+* The contact section show the user how to contact the Tennis club
 *  The  contact section ask user's to fill in an online form
   enter first name last name address, phone number email address
 * The contact section has textarea to enter a message.
@@ -94,9 +97,9 @@ is targets all ages who want to play tennis .
 
 
   ## **Validation Testing**
-  HTML
+  ###**HTML**
 * No error returned  when checked through offical W3C Validator.
-  CSS
+  ###**CSS**
 * No error resturned when checked through offical W3C validator.
   Accessibility
 *  confirm that the colors and fonts chosen are easy to read. That the
@@ -124,7 +127,7 @@ Live links is here [Tennis-club]( https://julielk.github.io/Tennis-club/ )
 Credits
 * The logo from  [favicon](https://favicon.io/)
 * The icons for the footer [fontawesome](https://fontawesome.com/ )
-* Gooogle fonts icons [google](https://fonts.google.com/icons)
+* Google fonts and icons [google](https://fonts.google.com/icons)
 
 ## **Media **
 * Images on the home page and gallery from [unsplash](https://unsplash.com/s/photos/tennis)
