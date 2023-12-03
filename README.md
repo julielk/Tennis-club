@@ -13,6 +13,16 @@ is targets all ages who want to play tennis .
 
 
 # **Features**
+
+## **Wireframes**
+* The wireframe sketches for the Tennis club website for the Home page,
+  gallery and form.
+
+
+
+  ![gallery](https://github.com/julielk/Tennis-club/blob/main/assets/documents/gallery.PNG)
+
+
 ## **Navigation**
 * The navigation on the top left hand corner shows the  Tennis club name.
 * The navigation on the top right hand corner show the links Home page, Gallery
