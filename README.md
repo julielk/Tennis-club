@@ -32,10 +32,15 @@ is targets all ages who want to play tennis .
   * The home section show  important about the Tennis club what it offers.
 
 ### **Gallery**
- *  The gallery page shows picture of coaching of young and adults
- *  The gallery page shows differnet age groups palying tornaments
- *  The glallery page show Tennis club events such a kids open day
+ *  The gallery page shows picture of coaching of  children and adults
+ *  The gallery page shows differnet age groups playing tornaments
+ *  The g  page show Tennis club events such a children open day
     and end of season party.
+
+
+
+
+    
 
 ### **Contact**  
 * The contact section show the meeting time
@@ -50,8 +55,8 @@ is targets all ages who want to play tennis .
 
 
 
-* The contact section when form filled in data is validated by
-  submit button.
+* The contact section when the user  fill in data is validated by
+  submit button., as shown below.
 
 
 
@@ -99,16 +104,21 @@ This website was deployed to Github pages by the following method.
   completed website.
 * Once the master branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment.
 
-Live links is here [Tennis-club](http://www.tennis-club.com).
+Live links is here [Tennis-club]( https://julielk.github.io/Tennis-club/ )
 
 
 ## **Credits**
 
 ### **Content**
-* The code for hamburger menu footer and socia media from CI [lover running](http://codeinstitue/love running)
+* The code for hamburger menu footer and socia media from CI [codeinstitute](https://code-institute-org.github.io/love-running-2.0/index.html)
+
+Credits
+* The logo from  [favicon](https://favicon.io/)
+* The icons for the footer [fontawesome](https://fontawesome.com/ )
+* Gooogle fonts icons [google](https://fonts.google.com/icons)
 
 ## **Media **
-* Images on the home page from unsplash.
+* Images on the home page and gallery from [unsplash](https://unsplash.com/s/photos/tennis)
 
 
   
