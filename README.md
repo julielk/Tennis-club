@@ -1,9 +1,8 @@
 # Tennis-club
 The  Tennis club website for children adults who want to join a tennis club
-Users of the website will beable to find out about the coaching the club offers
+Users of the website will be able to find out about the coaching the club offers
 on the home page. The gallery page shows the coaching, tornaments and events.
-The contact page show meetting time  contact form . The website
-is targets all ages who want to play tennis .
+The contact page show opening time  contact form user enters first name last name phone and email. The websiteis targets all user's who want to play tennis .
 
 ![](  https://github.com/julielk/Tennis-club/blob/main/assets/documents/device3.PNG )
 
@@ -14,8 +13,9 @@ is targets all ages who want to play tennis .
 
 # **Features**
 
+
 ## **Wireframes**
-* The wireframe sketche's for the Tennis club website show UI design  of the Home page,
+* The wireframe sketches for the Tennis club website show UI design  of the Home page,
   gallery and form.
 
    ![homepage](https://github.com/julielk/Tennis-club/blob/main/assets/documents/homePage.PNG)
@@ -36,13 +36,14 @@ is targets all ages who want to play tennis .
 
   # **Tennis Club**      
   ### **Header**
-  * The header font color grren background color white.
-  * The Header explains name of the Tennis club
+  * The header grren background  font color white.
+  * The Header explains name of the Tennis club.
   * The Header explains what the website is and for users of all ages
-  ![header]()
+    
+  ![header](https://github.com/julielk/Tennis-club/blob/main/assets/documents/header1.PNG)
 
   ### **Home Page**
-  * Home page setions gives details of what Tennis club offers
+  * Home page sections gives details of what Tennis club offers users.
     Tennis coaching , Tennis Equipment and Tennis competitions.
   * The user see the value of contacting the Tennis club.
     
@@ -63,7 +64,7 @@ is targets all ages who want to play tennis .
 
  *  The gallery page shows the user picture of coaching of  children and adults
  *  The gallery page shows the user differnet age groups playing tornaments
- *  The gallerypage show  the user Tennis club events such a children open day
+ *  The gallery page show  the user Tennis club events such a children open day
     and end of season party.
 
  ![gallery](https://github.com/julielk/Tennis-club/blob/main/assets/documents/gallery3.PNG)
@@ -155,7 +156,7 @@ Credits
 * The icons for the footer [fontawesome](https://fontawesome.com/ )
 * Google fonts and icons [google](https://fonts.google.com/icons)
 
-## **Media **
+## **Media**
 * Images on the home page and gallery from [unsplash](https://unsplash.com/s/photos/tennis)
 
 
