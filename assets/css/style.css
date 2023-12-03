@@ -192,7 +192,6 @@ main {
 
 
 .tennis-container {
-    border: 1px solid black;
     margin: 1.25rem;
     padding: 1rem;
     display: flex;
@@ -241,6 +240,7 @@ main {
 }
 
 #tennis-container h2 {
+
     text-align: center;
     text-transform: capitalize;
     color: #44653f;
@@ -519,11 +519,24 @@ ul {
 
     .text h2 {
         font-size: 2rem;
+
     }
 
 
-    /* Tennis 3 column home page */
+    /* Tennis 2 column home page */
+   /*
+    .text-container {
+        text-align: center;
+    }
 
+    */
+
+    .tennis-container {
+
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+
+    }
 
 
 
@@ -571,40 +584,29 @@ ul {
     .text h2 {
         font-size: 3rem;
 
+
     }
 
 
 
-    /* tennis container 
+    /* tennis container  home page 3 column */
+
+
+    .text-container h2 {
+
+        text-align: center;
+
+    }
 
     .tennis-container {
-        display: flex;
-        flex-wrap: wrap;
-        flex-direction: row;
-        justify-content: space-around;
-        align-items: center;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+
+
 
     }
 
 
-    .tennis-container .tennis {
-        margin: 5px;
-        flex-basis: 40%;
-
-    }
-
-    .tennis-container .tennis:last-child {
-        flex-basis: 100%;
-        margin: 0;
-    }
-
-    .tennis-container .tennis:nth-last-child(2) {
-
-        margin-right: 0;
-    }
-
-
-  
 
     /* Tennis Gallery */
 
