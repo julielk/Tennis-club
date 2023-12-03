@@ -24,7 +24,7 @@ is targets all ages who want to play tennis .
   ### **Header**
   * The header font color white background color green.
   * The Header explains name of the Tennis club
-  * The Header expalins what the website is and for users of all ages
+  * The Header explains what the website is and for users of all ages
 
   ### **Home Page**
   * Home page setions gives details  if what Tennis club offer members
@@ -39,9 +39,9 @@ is targets all ages who want to play tennis .
 
 ### **Contact**  
 * The contact section show the meeting time
-*  The  contact section ask user  fill in an online forn
-  enter firstname lastnam address, phone numbeer email address
-* The contact section has textarea to enter an message.
+*  The  contact section ask user's to fill in an online form
+  enter first name last name address, phone number email address
+* The contact section has textarea to enter a message.
 
 ![]( https://github.com/julielk/Tennis-club/blob/main/assets/documents/form1.PNG)
 
@@ -64,12 +64,12 @@ is targets all ages who want to play tennis .
 
 
   ## **Testing**
-  * I have tested that this website works in Edge chrome firefox.
+  * I have tested that this website works in Microsoft Edge chrome firefox.
   * I confirm that that is website project is responsive, that it
     fuction on different screen devices.
-  * I confirm that the navigation header home page gallery contact
+  * I confirm that the navigation header home page, gallery, contact
     are easy to read and understand.
-  * I confirm that the form works throught data validation, require entry
+  * I confirm that the form works through data validation, require entry
     in every field. The sumbit button works
 
   ## **Bugs**
@@ -93,10 +93,12 @@ is targets all ages who want to play tennis .
 
 ## **Deployment**
 This website was deployed to Github pages by the following method.
-*  From the github repository click on settings.
+*  In the github repository navigate  to the  settings tab .
 *  From the source select the drop-down menu  and master branch.
 *  When the master branch is select it provides the link to the
   completed website.
+* Once the master branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment.
+
 Live links is here [Tennis-club](http://www.tennis-club.com).
 
 
