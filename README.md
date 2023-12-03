@@ -18,13 +18,13 @@ The contact page show opening time  contact form user enters first name last nam
 * The wireframe sketches for the Tennis club website show UI design  of the Home page,
   gallery and form.
 
-   ![homepage](https://github.com/julielk/Tennis-club/blob/main/assets/documents/homePage.PNG)
+  
 
-   
-  ![gallery](https://github.com/julielk/Tennis-club/blob/main/assets/documents/gallery.PNG)
+![sketch](https://github.com/julielk/Tennis-club/blob/main/assets/documents/sketch.png)
 
 
-  ![form](https://github.com/julielk/Tennis-club/blob/main/assets/documents/form.PNG)
+
+
 
 
 ## **Navigation**
