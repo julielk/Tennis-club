@@ -37,7 +37,7 @@ is targets all ages who want to play tennis .
  *  The g  page show Tennis club events such a children open day
     and end of season party.
 
-
+ ![gallery]()
 
 
     
@@ -74,7 +74,7 @@ is targets all ages who want to play tennis .
    to a new tab to allow easy navigation for the user.
 * The footer is valuable to the user as it encourages them to keep connected via social media
 
-   
+   ![footer](https://github.com/julielk/Tennis-club/blob/main/assets/documents/footer1.PNG)
 
 
   ## **Testing**
