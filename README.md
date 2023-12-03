@@ -2,7 +2,7 @@
 The  Tennis club website for children adults who want to join a tennis club
 Users of the website will beable to find out about the coaching the club offers
 on the home page. The gallery page shows the coaching, tornaments and events.
-The contact page show meetting time  contact form and google map. The website
+The contact page show meetting time  contact form . The website
 is targets all ages who want to play tennis .
 
 ![](  https://github.com/julielk/Tennis-club/blob/main/assets/documents/device3.PNG )
@@ -15,13 +15,16 @@ is targets all ages who want to play tennis .
 # **Features**
 
 ## **Wireframes**
-* The wireframe sketches for the Tennis club website for the Home page,
+* The wireframe sketche's for the Tennis club website show UI design  of the Home page,
   gallery and form.
 
    ![homepage](https://github.com/julielk/Tennis-club/blob/main/assets/documents/homePage.PNG)
 
    
   ![gallery](https://github.com/julielk/Tennis-club/blob/main/assets/documents/gallery.PNG)
+
+
+  ![form](https://github.com/julielk/Tennis-club/blob/main/assets/documents/form.PNG)
 
 
 ## **Navigation**
