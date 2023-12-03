@@ -25,6 +25,7 @@ is targets all ages who want to play tennis .
   * The header font color grren background color white.
   * The Header explains name of the Tennis club
   * The Header explains what the website is and for users of all ages
+  ![header]()
 
   ### **Home Page**
   * Home page setions gives details of what Tennis club offers
@@ -37,7 +38,7 @@ is targets all ages who want to play tennis .
     * The Tennis club ethos will inspire the user to join  the tennis club.
     * The user will see  what the club offers below:
     
-
+     ![cluboffer](https://github.com/julielk/Tennis-club/blob/main/assets/documents/Cluboffer.PNG )
     
 
 ### **Gallery**
@@ -82,7 +83,7 @@ is targets all ages who want to play tennis .
 
 
 
-   ##**Footer**
+   ## **Footer**
 
 * The footer section includes links to the relevant social media sites. The links will open 
    to a new tab to allow easy navigation for the user.
@@ -101,16 +102,16 @@ is targets all ages who want to play tennis .
     in every field. The sumbit button works
 
   ## **Bugs**
-  ### **Solved Bugs
+  ### **Solved Bugs**
 
 
 
 
 
   ## **Validation Testing**
-  ###**HTML**
+  ### **HTML**
 * No error returned  when checked through offical W3C Validator.
-  ###**CSS**
+  ### **CSS**
 * No error resturned when checked through offical W3C validator.
   Accessibility
 *  confirm that the colors and fonts chosen are easy to read. That the
