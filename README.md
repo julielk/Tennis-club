@@ -68,6 +68,15 @@ is targets all ages who want to play tennis .
 
 
 
+   ##**Footer**
+
+* The footer section includes links to the relevant social media sites. The links will open 
+   to a new tab to allow easy navigation for the user.
+* The footer is valuable to the user as it encourages them to keep connected via social media
+
+   
+
+
   ## **Testing**
   * I have tested that this website works in Microsoft Edge chrome firefox.
   * I confirm that that is website project is responsive, that it
@@ -90,7 +99,7 @@ is targets all ages who want to play tennis .
   CSS
 * No error resturned when checked through offical W3C validator.
   Accessibility
-* I confirm that the colors and fonts chosen are easy to read. That the
+*  confirm that the colors and fonts chosen are easy to read. That the
    website site is asccesible by running it thorough lighthouse on Devtools.
 
 ## **Unfixed Bugs**
