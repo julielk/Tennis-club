@@ -13,31 +13,54 @@ is targets all ages who want to play tennis .
 
 
 # **Features**
+
+## **Wireframes**
+* The wireframe sketches for the Tennis club website for the Home page,
+  gallery and form.
+
+   ![homepage](https://github.com/julielk/Tennis-club/blob/main/assets/documents/homePage.PNG)
+
+   
+  ![gallery](https://github.com/julielk/Tennis-club/blob/main/assets/documents/gallery.PNG)
+
+
 ## **Navigation**
 * The navigation on the top left hand corner shows the  Tennis club name.
-* The navigation on th  top right hand corner show the links Home page, Gallery
+* The navigation on the top right hand corner show the links Home page, Gallery
   Contact
-* The Navigation  tells the user the name of the the webiste and  the likns
-  make different sections easy to find.
+* The Navigation  tells the user the name of the the webiste and  the links
+  make different sections easy to navigate.
 
-  # **Tennis Club**  ### **Home Galery Contact**
+  # **Tennis Club**      
   ### **Header**
-  * The header font color white background color green.
+  * The header font color grren background color white.
   * The Header explains name of the Tennis club
   * The Header explains what the website is and for users of all ages
+  ![header]()
 
   ### **Home Page**
-  * Home page setions gives details  if what Tennis club offer members
+  * Home page setions gives details of what Tennis club offers
     Tennis coaching , Tennis Equipment and Tennis competitions.
-  * The home section show  important about the Tennis club what it offers
+  * The user see the value of contacting the Tennis club.
+    
+    ![homepage](https://github.com/julielk/Tennis-club/blob/main/assets/documents/homepage3.PNG)
+
+    ### **Tennis club ethos**
+    * The Tennis club ethos will inspire the user to join  the tennis club.
+    * The user will see  what the club offers below:
+    
+     ![cluboffer](https://github.com/julielk/Tennis-club/blob/main/assets/documents/Cluboffer.PNG )
     
 
-  
-
 ### **Gallery**
- *  The gallery page shows picture of coaching of  children and adults
- *  The gallery page shows differnet age groups playing tornaments
- *  The g  page show Tennis club events such a children open day
+
+
+
+
+
+ *  The gallery page shows the user picture of coaching of  children and adults
+ *  The gallery page shows the user differnet age groups playing tornaments
+ *  The gallerypage show  the user Tennis club events such a children open day
     and end of season party.
 
  ![gallery](https://github.com/julielk/Tennis-club/blob/main/assets/documents/gallery3.PNG)
@@ -59,7 +82,7 @@ is targets all ages who want to play tennis .
 
 
 * The contact section when the user  fill in data is validated by
-  submit button., as shown below.
+  submit button, as shown below.
 
 
 
@@ -71,7 +94,7 @@ is targets all ages who want to play tennis .
 
 
 
-   ##**Footer**
+   ## **Footer**
 
 * The footer section includes links to the relevant social media sites. The links will open 
    to a new tab to allow easy navigation for the user.
@@ -90,16 +113,16 @@ is targets all ages who want to play tennis .
     in every field. The sumbit button works
 
   ## **Bugs**
-  ### **Solved Bugs
+  ### **Solved Bugs**
 
 
 
 
 
   ## **Validation Testing**
-  ###**HTML**
+  ### **HTML**
 * No error returned  when checked through offical W3C Validator.
-  ###**CSS**
+  ### **CSS**
 * No error resturned when checked through offical W3C validator.
   Accessibility
 *  confirm that the colors and fonts chosen are easy to read. That the
